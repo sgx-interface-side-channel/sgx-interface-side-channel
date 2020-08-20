@@ -1,5 +1,4 @@
 # SGX_Interface_Side_Channel
-==========================
 
 ## Introduction
 
@@ -17,7 +16,7 @@ Environment & Prerequisites
 Build
 --------------------------
 ```bash
-git clone git@gitlab.com:shellb34r/sgx_interface_side_channel.git
+git clone https://github.com/sgx-interface-side-channel/sgx-interface-side-channel.git
 mkdir build
 cd build
 CMAKE -DCMAKE_BUILD_TYPE=RELEASE -DCMAKE_C_COMPILER=/path/to/your/clang -DCMAKE_CXX_COMPILER=/path/to/your/clang++ ..
