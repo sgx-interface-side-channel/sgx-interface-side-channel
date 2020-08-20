@@ -26,8 +26,9 @@ sudo make install # if you wish to install Phasar system wide
 
 Usage
 -------------------------
+```
 opt -load any_llvm_pass.so -S -o after.bc before.bc
-~~~~~
+```
 
 Note
 ------------------------
